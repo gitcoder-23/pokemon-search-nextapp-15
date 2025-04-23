@@ -74,28 +74,3 @@ function PokemonDetails() {
 }
 
 export default PokemonDetails;
-
-// "use client";
-
-// import { useState, useEffect } from "react";
-// import { useRouter } from "next/navigation";
-
-// export default function PokemonDetails() {
-//   const router = useRouter();
-//   console.log("router", router);
-
-//   const { name } = router.query;
-
-//   return (
-//     <div>
-//       <h1>Pokémon Details</h1>
-//       {/* <ul>
-//         {pokemons.map((pokemon) => (
-//           <li key={pokemon.name}>
-//             <a href={`/pokemon/${pokemon.name}`}>{pokemon.name}</a>
-//           </li>
-//         ))}
-//       </ul> */}
-//     </div>
-//   );
-// }
